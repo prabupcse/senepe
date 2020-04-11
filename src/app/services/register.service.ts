@@ -24,6 +24,7 @@ export class RegisterService {
    * @returns {Observable<User>}
    */
   public register(user: User): Observable<User> {
+    debugger
     return this
       .httpClient
       .post(Config.POST_USER_URL, user, Config.JSON_HEADERS);

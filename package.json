@@ -24,6 +24,9 @@
     "@angular/router": "^4.4.3",
     "@compodoc/compodoc": "^1.0.1",
     "core-js": "^2.4.1",
+    "maven": "^4.7.0",
+    "mvm": "^0.2.0",
+    "mvn": "^3.5.0",
     "redux": "^3.7.2",
     "rxjs": "^5.1.0",
     "zone.js": "^0.8.4"

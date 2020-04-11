@@ -44,7 +44,8 @@ export class Config {
   }
 
   static getUrl(url: string):string {
-    return 'http://192.168.99.100:30339/' + url;
+    // return 'http://192.168.99.100:30339/' + url;
+    return 'http://localhost:8088/' + url
   }
 
 }

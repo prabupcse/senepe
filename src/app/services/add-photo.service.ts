@@ -15,6 +15,7 @@ export class AddPhotoService {
    * @returns {Observable<any>}
    */
   public sendPhoto(photo: Photo): Observable<any> {
+    debugger
     return this
       .httpClient
       .post(Config.ADD_PHOTO_URL, photo, Config.AUTH_HEADERS);

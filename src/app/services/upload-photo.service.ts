@@ -11,6 +11,7 @@ export class UploadPhotoService {
   }
 
   public upload() {
+    debugger
     this.makeFileRequest(Config.FILE_REQUEST_URL, [], this.filesToUpload).then((result => {
         console.log(result);
       }), (error) => {
